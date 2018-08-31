@@ -13,7 +13,7 @@ sudo docker run --rm  -v /home/jcorvi/text_tox_test/pubmed/classificator:/app/da
 # Generate Training Model
 java -jar /home/jcorvi/projects/text_classificator_model_training/target/text_classificator_training-0.0.1-SNAPSHOT-jar-with-dependencies.jar /home/jcorvi/text_tox_test/pubmed/classificator/text_classificator_model_training.properties
 
-# Generate Training Model
+# Generate Training Model Sentences
 java -jar /home/jcorvi/projects/text_classificator_model_training/target/text_classificator_training-0.0.1-SNAPSHOT-jar-with-dependencies.jar /home/jcorvi/text_tox_test/pubmed/classificator/text_classificator_model_training_sentences.properties
 
 
