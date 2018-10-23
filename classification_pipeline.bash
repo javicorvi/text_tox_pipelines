@@ -7,8 +7,12 @@ docker run --rm -u $UID  -v /home/jcorvi/text_tox_test/pubmed/:/app/data pubmed_
 # Execute sentences spliting 
 docker run --rm  -v /home/jcorvi/text_tox_test/pubmed:/app/data sentence_splitting python sentence_splitting.py -p /app/data/classification_sentence_splitting.properties
 
-# Execute Abstract Classification 
-java -jar /home/jcorvi/projects/text_classificator/target/text_classificator-0.0.1-SNAPSHOT-jar-with-dependencies.jar /home/jcorvi/text_tox_test/pubmed/text_classificator.properties
 
+
+#Singular Classificator
+
+#Hepatotoxicidad
+# Execute Abstract Classification 
+java -jar /home/jcorvi/projects/text_classificator/target/text_classificator-0.0.1-SNAPSHOT-jar-with-dependencies.jar /home/jcorvi/text_tox_test/pubmed/text_classificator_HEP.properties
 # Execute Sentence Classification 
-java -jar /home/jcorvi/projects/text_classificator/target/text_classificator-0.0.1-SNAPSHOT-jar-with-dependencies.jar /home/jcorvi/text_tox_test/pubmed/text_classificator_sentences.properties
+java -jar /home/jcorvi/projects/text_classificator/target/text_classificator-0.0.1-SNAPSHOT-jar-with-dependencies.jar /home/jcorvi/text_tox_test/pubmed/text_classificator_sentences_HEP.properties

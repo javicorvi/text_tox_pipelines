@@ -15,3 +15,9 @@ java -jar /home/jcorvi/projects/hepatotoxicity_tagger/target/hepatotoxicity_tagg
 
 # Execute tagging hepatotoxicity terms
 java -jar /home/jcorvi/projects/hepatotoxicity_tagger/target/hepatotoxicity_tagger-0.0.1-SNAPSHOT-jar-with-dependencies.jar /home/jcorvi/projects/hepatotoxicity_tagger/src/main/resources/hepatotoxicity_tagger_sentences.properties
+
+# Execute tagging liver marker terms
+java -jar /home/jcorvi/projects/liver_marker_tagger/target/liver_marker_tagger-0.0.1-SNAPSHOT-jar-with-dependencies.jar /home/jcorvi/projects/liver_marker_tagger/src/main/resources/liver_marker_tagger.properties
+
+# Execute tagging liver marker terms
+java -jar /home/jcorvi/projects/liver_marker_tagger/target/liver_marker_tagger-0.0.1-SNAPSHOT-jar-with-dependencies.jar /home/jcorvi/projects/liver_marker_tagger/src/main/resources/liver_marker_tagger_sentences.properties
