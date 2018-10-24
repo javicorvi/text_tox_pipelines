@@ -80,8 +80,6 @@ java -jar /home/jcorvi/projects/text_classificator_model_training/target/text_cl
 #phototoxicity
 java -jar /home/jcorvi/projects/text_classificator_model_training/target/text_classificator_training-0.0.1-SNAPSHOT-jar-with-dependencies.jar /home/jcorvi/text_tox_test/pubmed/classificator/text_classificator_model_training_PHOTO.properties
 
-
-
 #Multiclass
 java -jar /home/jcorvi/projects/text_classificator_model_training/target/text_classificator_training-0.0.1-SNAPSHOT-jar-with-dependencies.jar /home/jcorvi/text_tox_test/pubmed/classificator/text_classificator_model_training_multiclass.properties
 
@@ -90,7 +88,7 @@ java -jar /home/jcorvi/projects/text_classificator_model_training/target/text_cl
 java -jar /home/jcorvi/projects/text_classificator_model_training/target/text_classificator_training-0.0.1-SNAPSHOT-jar-with-dependencies.jar /home/jcorvi/text_tox_test/pubmed/classificator/text_classificator_model_training_sentences.properties
 
 
-#Generate Training Model For Abstracts
+#Generate Training Model For Sentences
 #Singular
 #Hepatotoxicity
 java -jar /home/jcorvi/projects/text_classificator_model_training/target/text_classificator_training-0.0.1-SNAPSHOT-jar-with-dependencies.jar /home/jcorvi/text_tox_test/pubmed/classificator/text_classificator_model_training_sentences_HEP.properties
@@ -106,7 +104,6 @@ java -jar /home/jcorvi/projects/text_classificator_model_training/target/text_cl
 java -jar /home/jcorvi/projects/text_classificator_model_training/target/text_classificator_training-0.0.1-SNAPSHOT-jar-with-dependencies.jar /home/jcorvi/text_tox_test/pubmed/classificator/text_classificator_model_training_sentences_CARCI.properties
 #phototoxicity
 java -jar /home/jcorvi/projects/text_classificator_model_training/target/text_classificator_training-0.0.1-SNAPSHOT-jar-with-dependencies.jar /home/jcorvi/text_tox_test/pubmed/classificator/text_classificator_model_training_sentences_PHOTO.properties
-
 
 
 #Multiclass
